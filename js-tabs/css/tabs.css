@@ -1,0 +1,41 @@
+.tab-container {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color:aqua;
+  border-radius: 20px;
+}
+.tab-buttons {
+  background-color: bisque;
+  color: black;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.tab-buttons-container{
+    margin: auto;
+}
+.tab-buttons.active {
+  background-color: black;
+  transition: 0.1s ease-in-out;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+}
+.tab-content {
+    font-size: 25px;
+    border: 5px solid bisque;
+border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+  }
