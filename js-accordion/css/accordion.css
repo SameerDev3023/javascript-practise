@@ -1,0 +1,10 @@
+.para-container{
+    height: 0px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+.para-container.col-md-12.active {
+    height: 100px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
