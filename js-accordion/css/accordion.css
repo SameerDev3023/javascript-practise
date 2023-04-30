@@ -8,3 +8,6 @@
     width: 100%;
     transition: 0.5s ease-in-out;
 }
+.accordion-body{
+    cursor: pointer;
+}
